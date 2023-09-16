@@ -1,6 +1,9 @@
 h1{
     color:blue
 }
+body{
+    font-family: 'PT Serif';
+}
 .containter {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
@@ -16,6 +19,7 @@ h1{
 .pitches{
     grid-row: 2/7;
     grid-column: 1/4;
+   
 }
 .courses{
     grid-row: 2/7;
@@ -25,9 +29,13 @@ h1{
 .nav-bar{
     grid-row: 2/7;
     grid-column: 6/8;
+    
 }
 .footer{
     grid-row: 7/8;
     grid-column: 1/8;
 
+}
+h1, h3{
+    font-family: Roboto;
 }
